@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Login Page</title>
+  </head>
+  <body>
+    <main class="main">
+      <div class="main-container container">
+        <div class="left"></div>
+        <div class="right">
+          <div class="login-info">
+            <p class="login-descr">Welcome back</p>
+            <h2 class="login-title">Login to your account</h2>
+            <form
+              action="https://echo.htmlacademy.ru"
+              method="get"
+              class="login-form"
+            >
+              <label for="password" class="login-label">Password</label>
+              <input
+                id="password"
+                type="password"
+                placeholder="John.snow@gmail.com"
+                name="password"
+                class="login-input"
+              />
+              <label for="email" class="login-label">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="*********"
+                class="login-input"
+              />
+              <div class="mini-login">
+                <div class="mini-login-left">
+                  <input
+                    type="checkbox"
+                    name="remember"
+                    id="remember"
+                    class="login-checkbox"
+                  /><label for="remember" class="login-label"
+                    >Remember me</label
+                  >
+                </div>
+                <a href="#" class="forgot-link" class="mini-login-right"
+                  >Forgot password?</a
+                >
+              </div>
+              <button type="submit" class="login-button">Login now</button>
+              <button class="singin-button">
+                <img src="./images/google-icon.svg" alt="" /> Or sign-in with
+                google
+              </button>
+            </form>
+            <p class="main-footer">
+              Join free today Dont have an account?
+              <a href="" class="link">Join free today</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
